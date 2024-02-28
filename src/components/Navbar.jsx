@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <img src={logo} alt="0xnodes" className="w-[124px] h-[32px]" /> */}
       <h1 className="text-5xl font-poppins font-semibold text-gradient">
-        <a href="#">0xnode.</a> 
+        <Link to={"/"}>0xfork.</Link> 
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -19,7 +20,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white hover:text-red-400`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -44,7 +45,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 } text-white`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link to={`${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>

@@ -2,21 +2,25 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "portfolio",
+    title: "Portfolio",
   },
+  // {
+  //   id: "features",
+  //   title: "Features",
+  // },
   {
-    id: "product",
-    title: "Product",
+    id: "about",
+    title: "About",
   },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  // {
+  //   id: "clients",
+  //   title: "Clients",
+  // },
 ];
 
 export const features = [
@@ -93,11 +97,15 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "White-Paper",
-        link: "#",
+        name: "Home",
+        link: "/",
       },
       {
-        name: "How it Works",
+        name: "Portfolio",
+        link: "portfolio",
+      },
+      {
+        name: "White-Paper",
         link: "#",
       },
       {

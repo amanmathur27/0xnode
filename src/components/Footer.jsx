@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo } from "../assets";
+// import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -13,10 +13,10 @@ const Footer = () => {
             className="w-[266px] h-[72px] object-contain"
           /> */}
           <h1 className="text-4xl font-poppins font-semibold text-gradient">
-            0xnode.
+            0xfork.
           </h1>
           <p className={`${styles.paragraph} mt-4 max-w-[350px] lowercase`}>
-          AN INTENT-CENTRIC ARCHITECTURE FOR DECENTRALIZED COUNTERPARTY DISCOVERY, SOLVING, INFORMATION FLOW CONTROL, AND ATOMIC MULTI‑CHAIN SETTLEMENT
+          We are proponents of decentralization. We enable blockchains by providing infrastructure support, validating blocks and actively participating in governance.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
 
       <div className="w-full flex justify-between  items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-          2024 <span className="text-red-400">0xnode</span> All Rights Reserved.
+          2024 <span className="text-red-400">0xfork</span> All Rights Reserved.
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (

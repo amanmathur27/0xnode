@@ -5,7 +5,7 @@ const Lotte = () => {
 
   return (
     <div>
-      <Lottie style={{width:'450px'}} animationData={animationData} isPlaying={true} />
+      <Lottie style={{width:'450px'}} animationData={animationData} isplaying={"true"} />
     </div>
   );
 };
