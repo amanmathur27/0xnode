@@ -2,6 +2,7 @@ import styles from "../style";
 import GetStarted from "./GetStarted";
 import Lotte from "./Lotte/Lotte";
 // import { discount } from "../assets";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
@@ -31,8 +32,17 @@ const Hero = () => {
           </div>
         </div>
         <h1 className=" font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-          The Mining Servers
+        <Typewriter
+            words={['Decentralized', 'Autonomous', 'Organization']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
         </h1>
+        
         <p className={`${styles.paragraph} max-w-[480px] mt-5`}>
         We are proponents of decentralization. We enable blockchains by providing infrastructure support, validating blocks and actively participating in governance.
         </p>

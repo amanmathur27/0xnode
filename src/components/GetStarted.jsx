@@ -1,23 +1,22 @@
 import styles from "../style"
 import { arrowUp } from "../assets"
+import { socialMedia } from "../constants"
 
 const GetStarted = () => {
   return (
-    <div className={`${styles.flexCenter} w-[120px] h-[120px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
-        <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
-            <div className={`${styles.flexStart} flex-row `}>
-                <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
-                    <span className="text-gradient">Get</span>
-                </p>
-                    <img src={arrowUp} alt="arrowup" 
-                        className="w-[23px] h-[23px] object-contain"
-                    />
-            </div>
-            <p className="font-poppins font-medium text-[18px] leading-[23px]">
-                    <span className="text-gradient">Started</span>
-                </p>
+        <div className="flex sm:flex-col gap-4 flex-row md:mt-0 mt-6 sm:border-l-[2px] sm:pl-4">
+          {socialMedia.map((social, index) => (
+            <a href={social.link} target="_blank"><img
+              key={social.id}
+              src={social.icon}
+              alt={social.id}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer hover:transition-all hover:w-[25px] hover:h-[25px]${
+                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+            /></a>
+          ))}
         </div>
-    </div>
+      
   )
 }
 

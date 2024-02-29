@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, discord, mail  } from "../assets";
 
 export const navLinks = [
   {
@@ -9,18 +9,10 @@ export const navLinks = [
     id: "portfolio",
     title: "Portfolio",
   },
-  // {
-  //   id: "features",
-  //   title: "Features",
-  // },
   {
     id: "about",
     title: "About",
   },
-  // {
-  //   id: "clients",
-  //   title: "Clients",
-  // },
 ];
 
 export const features = [
@@ -164,24 +156,19 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
+    id: "twitter",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/0xfork_xyz",
   },
   {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    id: "discord",
+    icon: discord,
+    link: "https://discord.gg/MRuGArYK/",
+  },
+  {
+    id: "email",
+    icon: mail,
+    link: "mailto:ping@0xfork.xyz",
   },
 ];
 

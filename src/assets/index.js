@@ -1,4 +1,6 @@
 import airbnb from "./airbnb.png";
+import discord from "./discord.svg";
+import mail from "./mail.svg";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
@@ -50,4 +52,6 @@ export {
   people01,
   people02,
   people03,
+  discord,
+  mail,
 };
