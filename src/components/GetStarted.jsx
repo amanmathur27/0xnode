@@ -1,5 +1,3 @@
-import styles from "../style"
-import { arrowUp } from "../assets"
 import { socialMedia } from "../constants"
 
 const GetStarted = () => {

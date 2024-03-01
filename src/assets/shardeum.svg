@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" x="0px" y="0px" viewBox="0 0 50 47" xml:space="preserve">
+  <g>
+    <path class="bar3" d="M11.7,35.6L5.8,46h39.8l-5.8-10.4H11.7z" fill="white"/>
+    <path class="bar2" d="M19.9,0L0,35.6h11.7l14.1-25.1L19.9,0z" fill="white"/>
+    <path class="bar1" d="M31.6,0l-5.8,10.4l14.1,25.1h11.7L31.6,0z" fill="white"/>
+    <path d="M25.7,20.7c3.5,0,6.3,2.9,6.3,6.5s-2.8,6.5-6.3,6.5c-3.5,0-6.3-2.9-6.3-6.5S22.3,20.7,25.7,20.7z" fill="white"/>
+  </g>
+</svg>

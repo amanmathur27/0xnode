@@ -1,4 +1,4 @@
-import { quotes } from "../assets";
+import { fairblock, farcaster, penumbra, powerloom, quotes, shardeum, taiko, ux, zora } from "../assets";
 import styles from "../style";
 import PortfolioCard from "../components/PortfolioCard";
 
@@ -16,23 +16,26 @@ const Portfolio = () => {
         </div>
 
         <div className="flex flex-wrap -m-4 text-center">
-          <PortfolioCard projectName="UX" text="https://www.ux.xyz/" />
-          <PortfolioCard projectName="Taiko" text="https://taiko.xyz" />
-          <PortfolioCard projectName="Penumbra" text="https://penumbra.zone" />
+          <PortfolioCard projectName="UX" text="https://www.ux.xyz/" img={ux}/>
+          <PortfolioCard projectName="Taiko" text="https://taiko.xyz" img={taiko}/>
+          <PortfolioCard projectName="Penumbra" text="https://penumbra.zone" img={penumbra}/>
           <PortfolioCard
             projectName="Fairblock"
             text="https://www.fairblock.network"
+            img={fairblock}
           />
           <PortfolioCard
             projectName="Farcaster"
             text="https://www.farcaster.xyz"
+            img={farcaster}
           />
-          <PortfolioCard projectName="Powerloom" text="https://powerloom.io" />
+          <PortfolioCard projectName="Powerloom" text="https://powerloom.io" img={powerloom}/>
           <PortfolioCard
             projectName="Shardeum"
             text="https://shardeum.org/betanet/"
+            img={shardeum}
           />
-          <PortfolioCard projectName="Zora" text="https://zora.co" />
+          <PortfolioCard projectName="Zora" text="https://zora.co" img={zora}/>
         </div>
       </div>
     </section>

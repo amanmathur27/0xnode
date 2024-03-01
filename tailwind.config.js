@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        iceland: ["Iceland", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
     },
     screens: {

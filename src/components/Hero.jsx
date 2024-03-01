@@ -1,7 +1,6 @@
 import styles from "../style";
 import GetStarted from "./GetStarted";
 import Lotte from "./Lotte/Lotte";
-// import { discount } from "../assets";
 import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
@@ -24,7 +23,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[70px]">
             Introducing <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">0xfork</span>{" "}
+            <span className="text-gradient font-orbitron text ss:text-[82px] text-[62px]">0xfork</span>{" "}
           </h1>
 
           <div className="ss:flex hidden md:mr-4 mr-0">
@@ -34,7 +33,7 @@ const Hero = () => {
         <h1 className=" font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
         <Typewriter
             words={['Decentralized', 'Autonomous', 'Organization']}
-            loop={5}
+            loop={Infinity}
             cursor
             cursorStyle='_'
             typeSpeed={70}

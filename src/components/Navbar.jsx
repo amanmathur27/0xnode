@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3f3e45]">
       {/* <img src={logo} alt="0xnodes" className="w-[124px] h-[32px]" /> */}
-      <h1 className="text-5xl font-poppins font-semibold text-gradient">
+      <h1 className="text-5xl font-orbitron font-semibold text-gradient">
         <Link to={"/"}>0xfork</Link> 
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
