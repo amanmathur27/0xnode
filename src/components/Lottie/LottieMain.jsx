@@ -1,7 +1,7 @@
 import Lottie from 'lottie-react';
-import animationData from './redanim.json';
+import animationData from './whiteanim.json';
 
-const Lotte = () => {
+const LottieMain = () => {
 
   return (
     <div>
@@ -10,4 +10,4 @@ const Lotte = () => {
   );
 };
 
-export default Lotte;
+export default LottieMain;

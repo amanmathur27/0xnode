@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Orbitron:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Orbitron:wght@400..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -30,20 +30,12 @@
     #33bbcf 100%
   ); */
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #fadede 0.89%,
-    #f5bebe 17.23%,
-    #f09d9d 42.04%,
-    #eb7d7d 55.12%,
-    #e65c5c 71.54%,
-    #cf3333 100%
-  );
+  background: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .bg-blue-gradient {
@@ -146,11 +138,8 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(
-    180deg,
-    rgba(188, 165, 255, 0) 0%,
-    #762121 100%
-  ); /*#214d76*/
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  /* #214d76 */
   filter: blur(123px);
 }
 
@@ -166,7 +155,7 @@
 
 ::-webkit-scrollbar {
   /* Customize the scrollbar width */
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -177,11 +166,11 @@
 ::-webkit-scrollbar-thumb {
   /* Customize the scrollbar thumb */
   border-radius: 30px;
-  background: rgb(128, 20, 20);
+  background: rgb(20, 110, 128);
   background: linear-gradient(
     96deg,
-    rgba(128, 20, 20, 1) 0%,
-    rgba(204, 60, 60, 1) 53%,
-    rgba(171, 0, 0, 0.7988445378151261) 100%
+    rgb(236, 236, 236) 0%,
+    rgb(60, 166, 204) 53%,
+    rgba(0, 91, 171, 0.799) 100%
   );
 }
